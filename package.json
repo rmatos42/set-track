@@ -1,0 +1,35 @@
+{
+  "name": "set-track",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "23.0.0",
+    "react-native-scripts": "1.8.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "expo": "^23.0.4",
+    "firebase": "^4.8.1",
+    "native-base": "^2.3.3",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-modal": "^4.1.1",
+    "react-native-router-flux": "^4.0.0-beta.25",
+    "react-native-search-box": "^0.0.13",
+    "react-native-searchbar": "^1.14.0",
+    "react-navigation": "^1.0.0-beta.22"
+  }
+}

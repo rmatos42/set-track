@@ -1,0 +1,26 @@
+users
+workout
+workout_session
+sets
+
+users
+	user id
+	workout id's
+	session id's
+
+workout
+	user id
+	session id's
+	set id's
+
+workout_session
+	user id
+	workout id
+	set id's
+
+sets
+	user id
+	workout id
+	session id
+	weight
+	reps
